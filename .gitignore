@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large raw data and generated artifacts
+data/raw/
+data/processed/
+outputs/
+models/
+
+# Keep folder structure, not generated contents
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/raw/primary_videos/.gitkeep
+!data/raw/secondary_dataset/.gitkeep
+!data/processed/.gitkeep
+!data/processed/annotations/.gitkeep
+!data/metadata/.gitkeep
+!outputs/.gitkeep
+!models/.gitkeep
